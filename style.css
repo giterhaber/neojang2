@@ -1,0 +1,9 @@
+td {
+    margin-right: 5px;
+}
+
+.collection_items {
+
+    display: flex;
+    align-items: stretch;
+}
